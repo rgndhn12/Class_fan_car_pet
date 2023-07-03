@@ -2,7 +2,13 @@
 
 # The Fan class
 
+class Fan:
+    
 # Three constants ( SLOW = 1, MEDIUM =2, FAST =3)
+
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
 
 # Private int data named "speed"
 
