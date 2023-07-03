@@ -26,3 +26,8 @@ class Fan:
 
 # The getters and setters methods for all four data fields
 
+    def get_speed (self):
+        return self.__speed
+    
+    def set_speed (self, speed):
+        self.__speed = speed
