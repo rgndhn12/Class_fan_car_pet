@@ -23,6 +23,8 @@ class Pet:
         self.__animal_type = animal_type
 
     #set_age
+    def set_age(self,age):
+        self.__age = age
 
     #get_name
     def get_name(self):
@@ -33,6 +35,8 @@ class Pet:
         return self.__animal_type
     
     #get_age
+    def get_age(self):
+        return self.__age
 
 #object of the class
     #user's input(name,type,age of the pet)
