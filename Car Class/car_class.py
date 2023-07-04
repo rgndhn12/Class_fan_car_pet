@@ -9,8 +9,13 @@ class Car:
     def __init__(self, year_model, maker, speed)
         
     # Car's year model
+        self.__year_model = year_model
+
     # Cars maker
+        self.__maker = maker
+
     # Car's current speed
+        self.__speed = 0
 
 
 
