@@ -13,12 +13,16 @@ class Pet:
     #Pet's age
         self.__age = age
 
-
 #methods
     #set_name
+    def set_name(self,name):
+        self.__name = name
+
     #set_animal_type
     #set_age
     #get_name
+    def get_name(self):
+        return self.__name
     #get_animal_type
     #get_age
 
