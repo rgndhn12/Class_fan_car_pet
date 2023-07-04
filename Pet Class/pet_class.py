@@ -37,7 +37,3 @@ class Pet:
     #get_age
     def get_age(self):
         return self.__age
-
-#object of the class
-    #user's input(name,type,age of the pet)
-    #display
