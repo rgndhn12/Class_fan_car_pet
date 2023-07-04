@@ -6,7 +6,7 @@ class Car:
 
 # __init__ method
 
-    def __init__(self, year_model, maker, speed):
+    def __init__(self, year_model, maker, speed = 0):
         
     # Car's year model
         self.__year_model = year_model
@@ -15,7 +15,7 @@ class Car:
         self.__maker = maker
 
     # Car's current speed
-        self.__speed = 0
+        self.__speed = speed
 
 
 #methods
