@@ -22,8 +22,11 @@ class Car:
     #accelerate
     def accelerate(self):
         self.__speed += 5
-        
+
     #brake
+    def brake(self):
+        self.__speed -= 5
+        
     #get_speed
 
 #call accelerate method five times
