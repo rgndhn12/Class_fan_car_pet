@@ -19,11 +19,19 @@ class Pet:
         self.__name = name
 
     #set_animal_type
+    def set_animal_type(self,animal_type):
+        self.__animal_type = animal_type
+
     #set_age
+
     #get_name
     def get_name(self):
         return self.__name
+    
     #get_animal_type
+    def get_animal_type(self):
+        return self.__animal_type
+    
     #get_age
 
 #object of the class
