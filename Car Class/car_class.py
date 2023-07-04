@@ -26,8 +26,10 @@ class Car:
     #brake
     def brake(self):
         self.__speed -= 5
-        
+
     #get_speed
+    def get_speed(self):
+        return self.__speed
 
 #call accelerate method five times
     #get the current speed
