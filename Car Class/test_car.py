@@ -9,7 +9,9 @@ for i in range(5):
     #display
     print(car_object.get_speed())
 
-
 #call brake method five times
+for i in range(5):
     #get the current speed
+    car_object.brake()
     #display
+    print(car_object.get_speed())
