@@ -1,17 +1,14 @@
 from car_class import Car
 
-class TestCar:
-    def testing_car(self):
-
-        car_object = Car(2019, "Mitsubishi",0)
-
-test_car = TestCar()
-test_car.testing_car()
+car_object = Car(2019, "Mitsubishi",0)
 
 #call accelerate method five times
-    
+for i in range(5):
     #get the current speed
+    car_object.accelerate()
     #display
+    print(car_object.get_speed())
+
 
 #call brake method five times
     #get the current speed
