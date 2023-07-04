@@ -1,11 +1,15 @@
 #Dahan, Regine Fae M.   Pet Class  BSCPE 1-5
 
 # The Pet Class
+class Pet:
+
+#__init__method
+    def __init__(self, name, animal_type, age):
+        
     #Pet's name
     #Pet's type
     #Pet's age
 
-#__init__method
 
 #methods
     #set_name
