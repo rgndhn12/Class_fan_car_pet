@@ -5,10 +5,13 @@ class Pet:
 
 #__init__method
     def __init__(self, name, animal_type, age):
-        
+
     #Pet's name
+        self.__name = name
     #Pet's type
+        self.__animal_type = animal_type
     #Pet's age
+        self.__age = age
 
 
 #methods
