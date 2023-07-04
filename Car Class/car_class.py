@@ -2,11 +2,17 @@
 
 # The Car Class
 
+class Car:
+
+# __init__ method
+
+    def __init__(self, year_model, maker, speed)
+        
     # Car's year model
     # Cars maker
     # Car's current speed
 
-# __init__ method
+
 
 #methods
     #accelerate
